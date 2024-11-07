@@ -1,0 +1,32 @@
+@tailwind components;
+
+@layer components {
+  .bg-ruby {
+    background: radial-gradient(
+      104.56% 104.56% at 50% 52.81%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(229, 4, 152, 0.2) 100%
+    );
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .bg-hotline {
+    background: url("/images/HotlineMiami.png");
+  }
+
+  .smooth-gradient {
+    transition: all 0.4s ease-in-out;
+    background-image: linear-gradient(
+      to right,
+      #f1324d,
+      #8b2398,
+      #581cbe,
+      #2414e3
+    );
+    box-shadow: 0 4px 15px 0 rgba(139, 35, 152, 0.75);
+  }
+  .smooth-gradient:hover {
+    box-shadow: 0 0px 0px 0 rgba(49, 196, 190, 0.75);
+  }
+}
