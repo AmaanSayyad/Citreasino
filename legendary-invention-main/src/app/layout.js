@@ -8,7 +8,7 @@ import {
 } from "@/lib/dynamic";
 
 export const metadata = {
-  title: "Powerplay",
+  title: "PowerPlay",
   description: "Web3 gaming arena",
 };
 

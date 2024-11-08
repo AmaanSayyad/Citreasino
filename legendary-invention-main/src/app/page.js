@@ -11,7 +11,6 @@ export default function Home() {
     <div className="bg-[#070005]">
       <Navbar />
       <HeroSection />
-      <SponsorSection />
       <FeatureSection />
       <FeatureGameSection />
       <LetsPlaySection />

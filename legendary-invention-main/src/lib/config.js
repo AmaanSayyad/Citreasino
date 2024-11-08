@@ -41,7 +41,7 @@ const supportedChains = [
 ];
 
 export const config = getDefaultConfig({
-   appName: 'Powerplay',
+   appName: 'PowerPlay',
    projectId,
    multiInjectedProviderDiscovery: false,
    chains: supportedChains,
