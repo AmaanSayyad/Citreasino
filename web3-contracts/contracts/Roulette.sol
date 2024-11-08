@@ -10,7 +10,6 @@ contract Roulette {
   mapping (address => uint256) winnings;
   uint8[] payouts;
   uint8[] numberRange;
-  
 
   
   /*
