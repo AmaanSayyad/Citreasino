@@ -14,7 +14,7 @@ export default function Footer() {
           <a href="/" className="logo">
             <Image src="/PowerPlay.png" alt="PowerPlay logo" width={172} height={15} />
           </a>
-          <p className="mt-4 text-sm text-white/70">
+          <p className="mt-9 text-m text-ultra-white/70">
             PowerPlay is your ultimate destination for Web3 gaming. Experience transparency, fairness,
             and excitement powered by blockchain technology.
           </p>

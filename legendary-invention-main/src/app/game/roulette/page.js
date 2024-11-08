@@ -24,6 +24,8 @@ import { getContract, parseEther } from 'viem'
 import { RainbowKitProvider } from '@rainbow-me/rainbowkit';
 import { muiStyles } from './styles';
 import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer'; 
+
 
 const TooltipWide = styled(({ className, ...props }) => (
 	<Tooltip {...props} classes={{ popper: className }} />
@@ -679,6 +681,7 @@ export default function GameRoulette() {
 						</Box>
 					</Box>
 				</Box>
+				<Footer />
 			</div>
 		</ThemeProvider>
 	)

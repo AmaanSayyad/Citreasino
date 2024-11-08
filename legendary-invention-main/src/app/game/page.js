@@ -11,7 +11,7 @@ export default function Page() {
       <div className="pt-32 bg-sharp-black text-white px-14">
         <HeaderText
           header="Games"
-          description="Hey champ! hit the bank and get your asserts to play a game."
+          description="Hey champ! hit the bank and get your assets to play the games."
         />
         <GameCarousel />
         <MostPlayed />

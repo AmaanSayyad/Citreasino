@@ -13,17 +13,17 @@ export default function Page() {
         <HeaderText
           header="The Bank"
           description={
-            "Hey champ! hit the bank and get your asserts to play a game."
+            "Hey champ! hit the bank and get your assets to play the games."
           }
         />
         <div className="w-full justify-end font-display flex py-5">
           <div className="flex items-center px-3 flex-col border-r">
-            <h5 className="text-sm">TOTAL LINKS</h5>
+            <h5 className="text-sm">TOTAL CBTC POOL</h5>
             <span className="text-xl text-sharp-purple">203,746</span>
           </div>
           <div className="flex items-center px-3 flex-col">
-            <h5 className="text-sm">1 LINKS = $15.53</h5>
-            <span className="text-xl text-sharp-purple">APY 0.03%</span>
+            <h5 className="text-sm">CBTC</h5>
+            <span className="text-xl text-sharp-purple">APY 6.03%</span>
           </div>
           <div className=" w-1/12 flex items-end justify-center">
             <GradientBorderButton classes="w-full h-2/3">
@@ -61,7 +61,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="flex flex-col justify-end gap-4">
-                  <GradientBorderButton>Reply</GradientBorderButton>
+                  <GradientBorderButton>Repay</GradientBorderButton>
                   <button className="w-[120px] magic-gradient rounded-sm py-1 font-display">
                     Borrow
                   </button>
@@ -95,7 +95,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="flex flex-col justify-end gap-4">
-                  <GradientBorderButton>Reply</GradientBorderButton>
+                  <GradientBorderButton>Repay</GradientBorderButton>
                   <GradientBgButton>Borrow</GradientBgButton>
                 </div>
               </div>
