@@ -9,8 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@dynamic-labs/ethereum": "^2.0.8",
-    "@dynamic-labs/sdk-react-core": "^2.0.8",
+    "@dynamic-labs/ethereum": "^2.6.3",
+    "@dynamic-labs/logger": "^3.6.0",
+    "@dynamic-labs/sdk-react-core": "^2.6.3",
+    "@dynamic-labs/types": "^3.6.0",
+    "@dynamic-labs/utils": "^3.6.0",
+    "@dynamic-labs/wagmi-connector": "^3.6.0",
+    "@dynamic-labs/wallet-book": "^3.6.0",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.18",
@@ -34,9 +39,9 @@
     "react-dom": "18.3.1",
     "react-icons": "^5.2.1",
     "react-number-format": "^5.3.4",
+    "rpc-websockets": "7.11.0",
     "siwe": "^2.3.2",
     "tailwindcss": "3.4.3",
-    "viem": "^2.13.3",
-    "rpc-websockets": "7.11.0"
+    "viem": "^2.13.3"
   }
 }
